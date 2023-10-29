@@ -1,0 +1,147 @@
+.widget { 
+    display: flex; 
+    justify-content: space-between; 
+    flex: 1; 
+    padding: 10px; 
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47); 
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); 
+    border-radius: 10px; 
+    height: 100px; 
+   
+    .left, 
+    .right {   
+      color: rgb(17, 134, 17);
+      display: flex; 
+      flex-direction: column; 
+      justify-content: space-between; 
+      
+      .title { 
+        font-weight: 400; 
+        font-size: 16px; 
+        color: white;
+      } 
+   
+      .counter { 
+        color: white;
+        font-size: 28px; 
+        font-weight: 500; 
+      } 
+   
+      .link { 
+        width: max-content; 
+        font-size: 12px; 
+        border-bottom: 1px solid gray; 
+      } 
+   
+      .percentage { 
+        display: flex; 
+        align-items: center; 
+        font-size: 14px; 
+   
+        &.positive { 
+          color: green; 
+        } 
+        &.negative { 
+          color: red; 
+        } 
+      } 
+   
+      .icon { 
+        font-size: 18px; 
+        padding: 5px; 
+        border-radius: 5px; 
+        align-self: flex-end; 
+      } 
+      .charts1{
+        position: relative;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        left: 220px;
+        top: -118px;
+      }
+      .topArrow1{
+        position: relative;
+        top: -29px;
+        left: -2px;
+        height: 17px;
+        width: 17px;
+      }
+      .dots1{
+        display:ruby;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        left: 290px;
+        top: -110px;
+      }
+      .charts2{
+        position: relative;
+        left: 190px;
+        top: -110px;
+      }
+      .right1{
+        font-size: 12px;
+        color: #00FF00;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 20px;
+        top: -46px;
+      }
+      .dots2{
+        display:ruby;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        left: 250px;
+        top: -100px;
+      }
+      .toparrow2{
+        position: relative;
+        top: -20px;
+        left: -2px;
+        height: 17px;
+        width: 17px;
+      }
+      .right2{
+        font-size: 12px;
+        color: #00FF00;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 20px;
+        top: -39px;
+      }
+      // .topArrow1{
+      //   position: relative;
+      //   top: -35px;
+      //   left: -2px;
+      //   height: 17px;
+      //   width: 17px;
+      // }
+      .dots3{
+        display:ruby;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        left: 250px;
+        top: -110px;
+      }
+      .charts3{
+        position: relative;
+        left: 190px;
+        top: -110px;
+      }
+      .right3{
+        font-size: 12px;
+        color: #00FF00;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: relative;
+        left: 20px;
+        top: 29px;
+      }
+      
+    } 
+  }

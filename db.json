@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "pname": "7up",
+      "offer": "7%",
+      "price": "Rs.60",
+      "sold": "78",
+      "sales": "123",
+      "id": 8
+    },
+    {
+      "pname": "Red Bull",
+      "offer": "2%",
+      "price": "Rs.51",
+      "sold": "11",
+      "sales": "3",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+.datatable{
+    height: 800px;
+    padding: 20px;
+    width: 1090px;
+}
+.cellWithImg{
+    display: flex;
+    align-items: center;
+}
+.cellImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+
+.headerName{
+    background-color: blue;
+}
+}
